@@ -1,0 +1,2 @@
+With this project, I will create and mimic the Google homepage. 
+From this, I will demonstrate a general knowledge of creating a webpage using HTML/CSS. Further, I will believe Google is even more badass after completing this project.
