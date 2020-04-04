@@ -22,9 +22,9 @@ footer {
     float: right;
 }
 .AppsIcon {
-    width: 5%;
-    height: 55%;
-}
+    width: 5px;
+    height: 5px;}
+    
 body {
     font-size: arial, sans-serif;
     background-color: white;
