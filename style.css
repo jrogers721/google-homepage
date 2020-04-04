@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.topleft {
+    float:left;
+}
+.topright { 
+    float: right;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background: #f2f2f2;
+}
+.bl {
+    float: left;
+}
+.br {
+    float: right;
+}
+.AppsIcon {
+    margin: auto;
+    padding: auto;
+    width: 25%;
+    height: 25%;
+}
+body {
+    font-size: arial, sans-serif;
+    background-color: white;
+}
