@@ -1,13 +1,19 @@
+body {
+    font-size: arial, sans-serif;
+    background-color: white;
+}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 .topleft {
-    float:left;
+    display: inline-block;
+    padding-left: 15px;
 }
 .topright { 
-    float: right;
+    display: inline-block;
+    padding-right: 15px;
 }
 a:hover {
     text-decoration: underline;
@@ -16,16 +22,14 @@ footer {
     background: #f2f2f2;
 }
 .bl {
-    float: left;
+    display: inline-block;
+    padding-left: 15px;
 }
 .br {
-    float: right;
+    display: inline-block;
+    padding-right: 15px;
 }
-.AppsIcon {
+#AppsIcon {
     width: 5px;
-    height: 5px;}
-    
-body {
-    font-size: arial, sans-serif;
-    background-color: white;
+    height: 5px;
 }
