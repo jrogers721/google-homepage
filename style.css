@@ -15,6 +15,12 @@ a {
     font-family: arial, sans-serif;
     font-size: 13px;
 }
+a:hover {
+    text-decoration: underline;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
 
 ul {
     list-style-type: none;
@@ -163,4 +169,7 @@ footer .float_right {
     font-family: arial, sans-serif;
     padding: 0 16px;
     margin: 11px 4px;
+}
+#button:hover {
+    opacity: 1.0;
 }
