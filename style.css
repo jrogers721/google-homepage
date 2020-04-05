@@ -1,13 +1,20 @@
-* {
-    font-family: arial, sans-serif;
-    font-size: 12pt;
-    text-decoration: none;
-}
-header {
-    margin: auto;
-    padding: auto;
+body {
+    margin-top: 9px;
 }
 
+.horizontal_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
 
 ul {
     list-style-type: none;
@@ -15,60 +22,145 @@ ul {
     padding: 0;
 }
 
-a:hover {
-    text-decoration: underline;
-}
-footer {
-    background-color: #f8f8f8;
-    margin: auto;
-    padding: auto;
+li {
+   margin-top: 11px;
+   margin-left: 17px;
+   float: left;
+   opacity: 0.85; 
 }
 
-#AppsIcon {
-    width: 16px;
-    height: 16px;
-    background-color: white;
+.clear {
+    clear:both;
 }
-#logo {
-    display: block;
-    margin: auto;
-    padding-top: 6.5%;
-    padding-bottom: 30px;
-}
-#searchinput {
-    border-radius: 20px;
-    width: 400px;
-    height: 30px;
-    display: block;
-    margin: auto;
-    padding: auto;
-    font-size: 12pt;
-}
-.btn {
-    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 4px;
-    color: #5F6368;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    display: inline-block;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-}
-a.bl {
+
+.float_left {
     float: left;
-    margin: auto;
-    padding: 0 0 0 15px;
 }
-a.br {
+
+.float_right {
     float: right;
-    margin: auto;
-    padding: 0 0 15px 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+    height: 40px;
+}
+
+footer a {
+    font-size: 14px;
+    color: hsl(213.3, 4.5%, 30%);
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+footer li {
+    margin-top: 10px;
+}
+
+footer .float_left {
+    margin-left: 3px;
+}
+
+footer .float_right {
+    margin-right: 30px;
+}
+
+#signin {
+    padding: 7px 12px 6px 12px;
+    color: #ffffff;
+    background-color: #4583ee;
+    border: 1px solid #4583ee;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 1px;
+}
+
+#apps-grid {
+    position: relative;
+    top: 2px;
+    margin-left: 3px;
+    margin-right: 4px;
+    opacity: 0.6;
+}
+
+#searchbar {
+    padding-top: 29px;
+}
+
+#search-prompt {
+    border-style: none;
+    position: relative;
+    font: 16px arial, sans-serif;
+    left: 30px;
+    top: 10px;
+}
+
+#searchbar-container {
+    border: 1px solid #dfe1e5;
+    width: 480px;
+    margin: 0 auto;
+    border-radius: 24px;
+    height: 42px;
+}
+
+.navbar-left li {
+    margin-right: 1px;
+}
+
+.navbar-right {
+    position: relative;
+    top: 1px;
+    margin-right: 22px;
+}
+
+.navbar-right li {
+    margin-left: 17px;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+#magnification-lens {
+    position: relative;
+    left: 17px;
+    top: 12px;
+    opacity: 0.3;
+}
+
+#microphone {
+    position: relative;
+    top: 8px;
+    right: 15px;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    float: right;
+}
+
+#google-logo {
+    padding-top: 158px;
+}
+
+#button {
+    padding-top: 20px;
+    padding-left: 3px;
+}
+
+#button input {
+    background-color: #f4f4f4;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    color: rgba(34, 2, 0, 0.7);
+    text-shadow: none;
+    line-height: 34px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    padding: 0 16px;
+    margin: 11px 4px;
 }

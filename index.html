@@ -5,69 +5,77 @@
 <title>>Google</title>
 </head>
 <body>
-<header>
-<ul>
-    <li style="float: left; color: #000000;">
-        <a class="topleft" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
-    </li>
-    <li style="float: left; color: #000000;">
-        <a class="topleft" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
-    </li>
+    <ul claSs="navbar">
+        <div class="float_left navbar-left">
+            <li>
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+            </li>
+            <li>
+                <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+            </li>
+        </div>
+        <div class="float_right navbar-right">
+            <li>
+                <a href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/intl/en/about/products?tab=wh">
+                    <img id="apps-grid" src="square_button.png" alt="Apps Button to access Google Apps">
+                </a>
+            </li>
+            <li style="opacity: 1;">
+                <a id="signin" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/webhp%3Fhl%3Den%26ictx%3D2%26sa%3DX%26ved%3D0ahUKEwjzuK6mq9LoAhWqhOAKHbygC38QPQgH">
+                Sign in
+                </a>
+            </li>
+        </div>
+    </ul>
+    <!--Main section-->
+    <img src="googlelogo_color_272x92dp.png" id="google-logo" class="horizontal_center clear" alt="Google Logo">
+    <form action="search_form.php" method="POST" class="horizontal_center" id="searchbar">
+        <div id="searchbar-container" class="text-align-left">
+           <img src="magnification_lens.png" alt="Magnification Lens Icon" id="magnification-lens">
+           <input type="text" id="search-prompt">
+           <img src="googlemic_color_24dp.png" alt="Google Microphone Icon" id="microphone"> 
+        </div>
+        <!--Google Buttons-->
+        <div id="button">
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
+        </div>
+    </form>
+    <!--Footer-->
+    <footer>
+        <ul>
+            <div class="float_left">
+                <li>
+                    <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+                </li>
+                <li>
+                    <a href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
+                </li>
+            </div>
+            <div class="float_right">
+                <li>
+                    <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
+                </li>
+                <li>
+                    <a href="https://policies.google.com/terms?fg=1">Terms</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/preferences?hl=en">Settings</a>
+                </li>
+            </div>
+        </ul>
+    </footer>
 
-    <li style="float: right; color: #000000;">
-        <a class="topright" href="https://mail.google.com/mail/?tab=wm&authuser=0&ogbl">Gmail</a>
-    </li>
-    <li style="float: right; color: #000000;">
-        <a class="topright" href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a>
-    </li>
-    <li style="float: right; color: #000000;">
-        <a class="topright" href="https://www.google.com/intl/en/about/products?tab=wh">
-            <img id="AppsIcon" src="apps.png">
-        </a>
-    </li>
-    <li style="float: right; color: #000000;">
-        <input class="signin" type="button" value="Sign in" href="https://web.archive.org/web/20191130031533/http://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
-    </li>
 
-</ul>
-</header>
-
-
-<div class="main">
-    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-
-</div>
-<div class="searchbar">
-<input id="searchinput" name="searchinput" type="text">
-</div>
-<div class="buttons">
-    <input class="btn" type="button" value="Google Search">
-    <input class="btn" type="button" value="I'm feeling lucky">
-
-</div>
-<footer>
-<ul>
-<li style="float: left; color: #000000;">
-    <a class="bl" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-</li>
-<li style="float: left; color: #000000;">
-    <a class="bl" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-</li>
-<li style="float: left; color: #000000;">
-    <a class="bl" href="https://google.com/search/howsearchworks/?fg=1">How Search Works</a>
-</li>
-<li style="float: right; color: #000000;">
-    <a class="br" href="https://policies.google.com/privacy?fg=1">Privacy</a>
-</li>
-<li style="float: right; color: #000000;">
-    <a class="br" href="https://policies.google.com/terms?fg=1">Terms</a>
-</li>
-<li style="float: right; color: #000000;">
-    <a class="br" href="https://www.google.com/preferences?hl=en">Settings</a>
-</li>
-
-</ul>
-</footer>
 
 
 </body>
