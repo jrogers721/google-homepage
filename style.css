@@ -13,7 +13,7 @@ a:hover {
     text-decoration: underline;
 }
 footer {
-    background: #f2f2f2;
+    background-color: #f2f2f2;
     margin: auto;
     padding: auto;
 }
@@ -29,9 +29,9 @@ footer {
     padding: auto;
 }
 #searchinput {
-    border-radius: 10px;
-    width: 450px;
-    height: 50px;
+    border-radius: 20px;
+    width: 200x;
+    height: 30px;
     display: block;
     margin: auto;
     padding: auto;
@@ -45,7 +45,7 @@ footer {
     color: #5F6368;
     font-family: arial, sans-serif;
     font-size: 14px;
-    display: block;
+    display: inline-block;
     margin: 11px 4px;
     padding: 0 16px;
     line-height: 27px;
