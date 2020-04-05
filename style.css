@@ -32,11 +32,12 @@ footer {
 #logo {
     display: block;
     margin: auto;
-    padding: auto;
+    padding-top: 6.5%;
+    padding-bottom: 30px;
 }
 #searchinput {
     border-radius: 20px;
-    width: 400x;
+    width: 400px;
     height: 30px;
     display: block;
     margin: auto;
@@ -67,11 +68,5 @@ a.bl {
     padding: 0 0 0 15px;
 }
 a.br {
-    float: right;
-}
-a.topleft {
-    float: left;
-}
-a.topright {
     float: right;
 }
